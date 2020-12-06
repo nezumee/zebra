@@ -1,6 +1,9 @@
 # zebra
 Zebra, adjustable column stagger keyboard
 
+	![zebra](/images/zebra.jpg)
+
+
 # Overview
 Zebra is a column staggered keyboard with independent PCBs for every column, allowing them to be put together in different positions or combinations without remaking any components or resoldering.
 
@@ -24,46 +27,51 @@ For pictured configuration:
 1. Solder the ProMicro socket. Make sure to do it on the right side of the PCB depending on the way the pins on your ProMicro are oriented (Pin 1 is square on the PCB). My ProMicro has pins soldered so it's mounted upside down, with the MCU facing downwards
 2. Solder the jumper headers on the same side
 	
-	(/images/solder-head.png)
+	![solder-head](/images/solder-head.jpg)
 	(ignore the wires in the picture)
 	
 ## Solder the stripes
 Solder the diodes, switch sockets and jumper headers
 	
-	
+	![solder-stripes](/images/solder-stripes-1.jpg)
+
+	![solder-stripes](/images/solder-stripes-2.jpg)
 	
 You can skip soldering the diodes and sockets if you're not planning to use some switches (lower left).
 	
 ##Connect the boards
 Here's how the wires must be connected:
 - Head
-	
+	![wire-head](/images/wire-head.jpg)
+
 	Note that the row wires are different between the left and right sides, don't connect them to each other!
 
 - Stripes
-	
+	![wire-stripe](/images/wire-stripe.jpg)
+
 - Overview of connections:
+	![wire-overview](/images/wire-overview.jpg)
 	
 - When connecting row wires between stripes, use the headers that are further apart so that the wires don't need to bend as much when the columns are arranged next to each other:
-	
+	![wire-stripes-2](/images/wire-stripes-2.jpg)
+
 	
 ## Arrange the boards
 Now the difficult part - putting the stripes in place.
 
 - Option 1: cut the shape out of cardboard that you want to place the stripes in, put some sticky tape at the back (glue side up), and stick the column boards to it:
 	
-	
-	
+	![place-cardboard-1](/images/place-cardboard-1.jpg)
+	![place-cardboard-2](/images/place-cardboard-2.jpg)
 	
 - Option 2: 3d print stripe holders, screw them together and insert the stripe PCBs:
 	
-	
-	
-	
-	
+	![place-3dprint-1](/images/place-3dprint-1.jpg)
+	![place-3dprint-2](/images/place-3dprint-2.jpg)
 	
 	Built-in ruler on the bottom of each stripe to measure the column stagger:
 	
+	![place-3dprint-ruler](/images/place-3dprint-ruler.jpg)
 
 # Firmware
 Zebra is running QMK, see the source code under the QMK folder. It accepts JSON layout files made for Corne (LAYOUT_split_3x6_3) from QMK configurator.

@@ -3,7 +3,6 @@ Zebra, adjustable column stagger keyboard
 
 	![zebra](/images/zebra.jpg)
 
-
 # Overview
 Zebra is a column staggered keyboard with independent PCBs for every column, allowing them to be put together in different positions or combinations without remaking any components or resoldering.
 

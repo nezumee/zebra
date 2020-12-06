@@ -24,6 +24,7 @@ For pictured configuration:
 1. Solder the ProMicro socket. Make sure to do it on the right side of the PCB depending on the way the pins on your ProMicro are oriented (Pin 1 is square on the PCB). My ProMicro has pins soldered so it's mounted upside down, with the MCU facing downwards
 2. Solder the jumper headers on the same side
 	
+	(/images/solder-head.png)
 	(ignore the wires in the picture)
 	
 ## Solder the stripes

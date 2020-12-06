@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name keyswitches)(type KiCad)(uri C:/Users/kmuzy/Documents/Projects/Zebra/keyswitches.pretty-master)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri C:/Users/kmuzy/Documents/Projects/Zebra/promicro.pretty)(options "")(descr ""))
+  (lib (name ssd1306)(type KiCad)(uri C:/Users/kmuzy/Documents/Projects/Zebra/ssd1306.pretty)(options "")(descr ""))
+  (lib (name holes)(type KiCad)(uri C:/Users/kmuzy/Documents/Projects/Zebra/holes.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name display_Library)(type Legacy)(uri C:/Users/kmuzy/Documents/Projects/Zebra/display_library/display_Library.lib)(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri C:/Users/kmuzy/Documents/Projects/Zebra/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name Zebra-head-rescue)(type Legacy)(uri ${KIPRJMOD}/Zebra-head-rescue.lib)(options "")(descr ""))
+)

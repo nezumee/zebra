@@ -1,0 +1,6 @@
+[submodule "promicro/ProMicroKiCad"]
+	path = promicro/ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad
+[submodule "keyswitches/keyswitches.pretty"]
+	path = keyswitches/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty

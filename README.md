@@ -1,7 +1,7 @@
 # zebra
 Zebra, adjustable column stagger keyboard
 
-	![zebra!](/images/zebra.jpg)
+![zebra](/images/zebra.jpg)
 
 # Overview
 Zebra is a column staggered keyboard with independent PCBs for every column, allowing them to be put together in different positions or combinations without remaking any components or resoldering.
@@ -33,9 +33,9 @@ For pictured configuration:
 ## Solder the stripes
 Solder the diodes, switch sockets and jumper headers
 	
-	![solder-stripes-1](/images/solder-stripes-1.jpg)
+![solder-stripes-1](/images/solder-stripes-1.jpg)
 
-	![solder-stripes-1](/images/solder-stripes-2.jpg)
+![solder-stripes-1](/images/solder-stripes-2.jpg)
 	
 You can skip soldering the diodes and sockets if you're not planning to use some switches (lower left).
 	
@@ -78,4 +78,8 @@ Now the difficult part - putting the stripes in place.
 	![place-3dprint-ruler](/images/place-3dprint-ruler.jpg)
 
 # Firmware
-Zebra is running QMK, see the source code under the QMK folder. It accepts JSON layout files made for Corne (LAYOUT_split_3x6_3) from QMK configurator.
+Zebra is running QMK, see the source code under the QMK folder. Copy the "Zebra" folder under the keyboards folder in the QMK environment to compile. You can use JSON layout files made for Corne (LAYOUT_split_3x6_3) from QMK configurator.
+
+
+# Have fun
+Try popular or crazy configurations and see what you like!

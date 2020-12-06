@@ -1,7 +1,7 @@
 # zebra
 Zebra, adjustable column stagger keyboard
 
-	![zebra](/images/zebra.jpg)
+	![zebra!](/images/zebra.jpg)
 
 # Overview
 Zebra is a column staggered keyboard with independent PCBs for every column, allowing them to be put together in different positions or combinations without remaking any components or resoldering.
@@ -27,31 +27,36 @@ For pictured configuration:
 2. Solder the jumper headers on the same side
 	
 	![solder-head](/images/solder-head.jpg)
+	
 	(ignore the wires in the picture)
 	
 ## Solder the stripes
 Solder the diodes, switch sockets and jumper headers
 	
-	![solder-stripes](/images/solder-stripes-1.jpg)
+	![solder-stripes-1](/images/solder-stripes-1.jpg)
 
-	![solder-stripes](/images/solder-stripes-2.jpg)
+	![solder-stripes-1](/images/solder-stripes-2.jpg)
 	
 You can skip soldering the diodes and sockets if you're not planning to use some switches (lower left).
 	
 ##Connect the boards
 Here's how the wires must be connected:
 - Head
+
 	![wire-head](/images/wire-head.jpg)
 
 	Note that the row wires are different between the left and right sides, don't connect them to each other!
 
 - Stripes
+
 	![wire-stripe](/images/wire-stripe.jpg)
 
 - Overview of connections:
+
 	![wire-overview](/images/wire-overview.jpg)
 	
 - When connecting row wires between stripes, use the headers that are further apart so that the wires don't need to bend as much when the columns are arranged next to each other:
+
 	![wire-stripes-2](/images/wire-stripes-2.jpg)
 
 	

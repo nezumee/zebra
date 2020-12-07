@@ -8,7 +8,7 @@ Zebra is a column staggered keyboard with independent PCBs for every column, all
 
 # Parts
 For pictured configuration:
-- Zebra head PCB x1
+- Zebra head PCB x1 (see [KiCad](/PCB/Zebra) and [gerbers](/PCB/Gerber))
 - Zebra stripe PCB x12. Up to 14 are supported, adjust other part counts accordingly if using more or less
 - ProMicro, Elite C or equivalent x1
 - ProMicro socket x1 (optional, I used https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/315-43-164-41-003000/1212143)
@@ -76,7 +76,7 @@ Now the difficult part - putting the stripes in place.
 	
 	Note that a stripe allows changing stagger between 10mm in one direction and 20mm in another. Mirror half the stripes to flip which way gets more stagger on different sides of the keyboard.
 	
-	Built-in ruler on the bottom of each stripe to measure the column stagger:
+	A basic ruler is built into the bottom of each stripe to measure the column stagger:
 	
 	![place-3dprint-ruler](/images/place-3dprint-ruler.jpg)
 

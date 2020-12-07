@@ -1,4 +1,4 @@
-# zebra
+# Zebra
 Zebra, adjustable column stagger keyboard
 
 ![zebra](/images/zebra.jpg)
@@ -39,7 +39,7 @@ Solder the diodes, switch sockets and jumper headers
 	
 You can skip soldering the diodes and sockets if you're not planning to use some switches (lower left).
 	
-##Connect the boards
+## Connect the boards
 Here's how the wires must be connected:
 - Head
 
@@ -58,7 +58,6 @@ Here's how the wires must be connected:
 - When connecting row wires between stripes, use the headers that are further apart so that the wires don't need to bend as much when the columns are arranged next to each other:
 
 	![wire-stripes-2](/images/wire-stripes-2.jpg)
-
 	
 ## Arrange the boards
 Now the difficult part - putting the stripes in place.
@@ -68,18 +67,39 @@ Now the difficult part - putting the stripes in place.
 	![place-cardboard-1](/images/place-cardboard-1.jpg)
 	![place-cardboard-2](/images/place-cardboard-2.jpg)
 	
-- Option 2: 3d print stripe holders, screw them together and insert the stripe PCBs:
+	A template is available in [cardboard.svg](/Case/Cardboard.svg) file.
+	
+- Option 2: 3d print [stripe holders](/Case/3d-printed.stl), screw them together and insert the stripe PCBs:
 	
 	![place-3dprint-1](/images/place-3dprint-1.jpg)
 	![place-3dprint-2](/images/place-3dprint-2.jpg)
+	
+	Note that a stripe allows changing stagger between 10mm in one direction and 20mm in another. Mirror half the stripes to flip which way gets more stagger on different sides of the keyboard.
 	
 	Built-in ruler on the bottom of each stripe to measure the column stagger:
 	
 	![place-3dprint-ruler](/images/place-3dprint-ruler.jpg)
 
 # Firmware
-Zebra is running QMK, see the source code under the QMK folder. Copy the "Zebra" folder under the keyboards folder in the QMK environment to compile. You can use JSON layout files made for Corne (LAYOUT_split_3x6_3) from QMK configurator.
-
+Zebra is running QMK, see the source code under the QMK folder. Copy the [zebra](/QMK/zebra) folder under the keyboards folder in your QMK environment to compile. You can use JSON layout files made for Corne (LAYOUT_split_3x6_3) to build your layout in QMK configurator.
 
 # Have fun
-Try popular or crazy configurations and see what you like!
+Try some popular or crazy configurations and see what you like!
+
+Here's some examples:
+
+- Let's split: no stagger
+
+![](/images/zebra-lets-split.jpg)
+
+- Corne: index finger +2.4mm/middle +2.4mm/ring -2.4mm/pinky -4.8mm
+
+![](/images/zebra-corne.jpg)
+
+- Kyria: +2.5mm/+6.5mm/-6mm/-12mm
+
+![](/images/zebra-kyria.jpg)
+
+- The best one I found for myself so far: +2.5mm/+10mm/-5mm/-14mm
+
+![zebra](/images/zebra.jpg)

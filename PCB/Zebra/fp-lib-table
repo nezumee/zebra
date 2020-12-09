@@ -4,4 +4,5 @@
   (lib (name ssd1306)(type KiCad)(uri ${KIPRJMOD}/../../ssd1306.pretty)(options "")(descr ""))
   (lib (name holes)(type KiCad)(uri ${KIPRJMOD}/../../holes.pretty)(options "")(descr ""))
   (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/../../libraries/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name nk)(type KiCad)(uri ${KIPRJMOD}/../../libraries/nk.pretty)(options "")(descr ""))
 )

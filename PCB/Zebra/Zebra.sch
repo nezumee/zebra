@@ -144,10 +144,10 @@ F 3 "~" H 4325 1075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW5
+L Device:Rotary_Encoder_Switch SW1
 U 1 1 5FD10E8D
 P 3575 1900
-F 0 "SW5" H 3575 1533 50  0000 C CNN
+F 0 "SW1" H 3575 1533 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3575 1624 50  0000 C CNN
 F 2 "nk:CherryMX_Hotswap_Encoder" H 3425 2060 50  0001 C CNN
 F 3 "~" H 3575 2160 50  0001 C CNN
@@ -173,10 +173,10 @@ Wire Wire Line
 Wire Wire Line
 	4100 1175 4100 2000
 $Comp
-L Device:Rotary_Encoder_Switch SW6
+L Device:Rotary_Encoder_Switch SW2
 U 1 1 5FD1A1FF
 P 3575 2300
-F 0 "SW6" H 3575 1933 50  0000 C CNN
+F 0 "SW2" H 3575 1933 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3575 2024 50  0000 C CNN
 F 2 "nk:CherryMX_Hotswap_Encoder" H 3425 2460 50  0001 C CNN
 F 3 "~" H 3575 2560 50  0001 C CNN
@@ -186,10 +186,10 @@ $EndComp
 Wire Wire Line
 	3275 2400 2850 2400
 $Comp
-L Device:Rotary_Encoder_Switch SW7
+L Device:Rotary_Encoder_Switch SW3
 U 1 1 5FD1CB31
 P 3575 2700
-F 0 "SW7" H 3575 2333 50  0000 C CNN
+F 0 "SW3" H 3575 2333 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3575 2424 50  0000 C CNN
 F 2 "nk:CherryMX_Hotswap_Encoder" H 3425 2860 50  0001 C CNN
 F 3 "~" H 3575 2960 50  0001 C CNN
@@ -207,10 +207,10 @@ Connection ~ 1850 1500
 Wire Wire Line
 	3275 2800 2850 2800
 $Comp
-L Device:Rotary_Encoder_Switch SW8
+L Device:Rotary_Encoder_Switch SW4
 U 1 1 5FD24E4C
 P 3575 3100
-F 0 "SW8" H 3575 2733 50  0000 C CNN
+F 0 "SW4" H 3575 2733 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3575 2824 50  0000 C CNN
 F 2 "nk:CherryMX_Hotswap_Encoder" H 3425 3260 50  0001 C CNN
 F 3 "~" H 3575 3360 50  0001 C CNN
@@ -267,10 +267,10 @@ Wire Wire Line
 	4100 3200 3875 3200
 Connection ~ 4100 2800
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR01
 U 1 1 5FD3AC9C
 P 3875 1075
-F 0 "#PWR0101" H 3875 825 50  0001 C CNN
+F 0 "#PWR01" H 3875 825 50  0001 C CNN
 F 1 "GND" H 3880 902 50  0000 C CNN
 F 2 "" H 3875 1075 50  0001 C CNN
 F 3 "" H 3875 1075 50  0001 C CNN

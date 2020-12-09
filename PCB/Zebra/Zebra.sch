@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5FA76D91
-P 2650 2000
-F 0 "SW1" H 2650 2285 50  0000 C CNN
-F 1 "SW_Push" H 2650 2194 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 2650 2200 50  0001 C CNN
-F 3 "~" H 2650 2200 50  0001 C CNN
-	1    2650 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 2000 2350 2000
 $Comp
@@ -43,10 +32,10 @@ U 1 1 5FA7ABD9
 P 2650 2400
 F 0 "SW2" H 2650 2685 50  0000 C CNN
 F 1 "SW_Push" H 2650 2594 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 2650 2600 50  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 2600 50  0001 C CNN
 F 3 "~" H 2650 2600 50  0001 C CNN
 	1    2650 2400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D2
@@ -67,10 +56,10 @@ U 1 1 5FA7B8B8
 P 2650 2700
 F 0 "SW3" H 2650 2985 50  0000 C CNN
 F 1 "SW_Push" H 2650 2894 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 2650 2900 50  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 2900 50  0001 C CNN
 F 3 "~" H 2650 2900 50  0001 C CNN
 	1    2650 2700
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D3
@@ -91,10 +80,10 @@ U 1 1 5FA7B8CD
 P 2650 3100
 F 0 "SW4" H 2650 3385 50  0000 C CNN
 F 1 "SW_Push" H 2650 3294 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 2650 3300 50  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 3300 50  0001 C CNN
 F 3 "~" H 2650 3300 50  0001 C CNN
 	1    2650 3100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D4
@@ -202,4 +191,15 @@ Wire Wire Line
 Connection ~ 1750 1600
 Wire Wire Line
 	1750 1600 1750 3100
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FA76D91
+P 2650 2000
+F 0 "SW1" H 2650 2285 50  0000 C CNN
+F 1 "SW_Push" H 2650 2194 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 2650 2200 50  0001 C CNN
+F 3 "~" H 2650 2200 50  0001 C CNN
+	1    2650 2000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -254,21 +254,21 @@ Wire Wire Line
 	1550 2000 1550 3200
 Wire Wire Line
 	1750 3100 1450 3100
-$Comp
-L promicro:ProMicro U1
-U 1 1 5FCC9219
-P 2450 3250
-F 0 "U1" H 2450 4393 60  0000 C CNN
-F 1 "ProMicro" H 2450 4287 60  0000 C CNN
-F 2 "promicro:ProMicro-DualFootprint" H 2450 4181 60  0000 C CNN
-F 3 "" H 2550 2200 60  0000 C CNN
-	1    2450 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1650 2100 3800 2100
 Wire Wire Line
 	1050 3000 1050 4850
 Wire Wire Line
 	950  2900 950  4950
+$Comp
+L kbd:ProMicro U1
+U 1 1 5FD08ED3
+P 2450 3050
+F 0 "U1" H 2450 3887 60  0000 C CNN
+F 1 "ProMicro" H 2450 3781 60  0000 C CNN
+F 2 "kbd:ProMicro_v3.5" H 2550 2000 60  0000 C CNN
+F 3 "" H 2550 2000 60  0000 C CNN
+	1    2450 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

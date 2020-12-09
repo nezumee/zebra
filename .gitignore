@@ -5,3 +5,4 @@
 PCB/Zebra/fp-info-cache
 *.kicad_pcb-bak
 *.sch-bak
+_autosave-*

@@ -138,7 +138,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 4650 2200 5100
 NoConn ~ 3150 2500
-NoConn ~ 3150 2700
 Wire Wire Line
 	1550 3200 1750 3200
 Wire Wire Line
@@ -245,8 +244,6 @@ Wire Wire Line
 	4850 4275 4850 4375
 Text GLabel 850  2900 0    50   Input ~ 0
 SDA
-Text GLabel 850  3000 0    50   Input ~ 0
-SCL
 Wire Wire Line
 	1750 2900 850  2900
 Wire Wire Line
@@ -341,4 +338,129 @@ Wire Wire Line
 Connection ~ 5175 4325
 Wire Wire Line
 	5175 4325 5475 4325
+$Comp
+L Device:LED D1
+U 1 1 5FD7814F
+P 950 3300
+F 0 "D1" H 943 3517 50  0000 C CNN
+F 1 "LED" H 943 3426 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 950 3300 50  0001 C CNN
+F 3 "~" H 950 3300 50  0001 C CNN
+	1    950  3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FD7949A
+P 600 3575
+F 0 "R3" H 530 3529 50  0000 R CNN
+F 1 "1k" H 530 3620 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 530 3575 50  0001 C CNN
+F 3 "~" H 600 3575 50  0001 C CNN
+	1    600  3575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 3300 1100 3300
+Wire Wire Line
+	800  3300 600  3300
+Wire Wire Line
+	600  3300 600  3425
+$Comp
+L power:GND #PWR0104
+U 1 1 5FD7D569
+P 600 3950
+F 0 "#PWR0104" H 600 3700 50  0001 C CNN
+F 1 "GND" H 605 3777 50  0000 C CNN
+F 2 "" H 600 3950 50  0001 C CNN
+F 3 "" H 600 3950 50  0001 C CNN
+	1    600  3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  3725 600  3950
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5FD7FCEF
+P 1050 3575
+F 0 "J3" H 968 3992 50  0000 C CNN
+F 1 "Conn_01x06" H 968 3901 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1050 3575 50  0001 C CNN
+F 3 "~" H 1050 3575 50  0001 C CNN
+	1    1050 3575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FD84F14
+P 1350 4000
+F 0 "#PWR0105" H 1350 3750 50  0001 C CNN
+F 1 "GND" H 1355 3827 50  0000 C CNN
+F 2 "" H 1350 4000 50  0001 C CNN
+F 3 "" H 1350 4000 50  0001 C CNN
+	1    1350 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 3475 2    50   Input ~ 0
+SDA
+Text GLabel 850  3000 0    50   Input ~ 0
+SCL
+Text GLabel 1400 3575 2    50   Input ~ 0
+SCL
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FD8D75C
+P 3825 1500
+F 0 "SW1" H 3825 1785 50  0000 C CNN
+F 1 "SW_Push" H 3825 1694 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 3825 1700 50  0001 C CNN
+F 3 "~" H 3825 1700 50  0001 C CNN
+	1    3825 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 2700 3225 1500
+Wire Wire Line
+	3225 1500 3625 1500
+Wire Wire Line
+	3150 2700 3225 2700
+$Comp
+L power:GND #PWR0106
+U 1 1 5FD94DA7
+P 4250 1500
+F 0 "#PWR0106" H 4250 1250 50  0001 C CNN
+F 1 "GND" H 4255 1327 50  0000 C CNN
+F 2 "" H 4250 1500 50  0001 C CNN
+F 3 "" H 4250 1500 50  0001 C CNN
+	1    4250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 1500 4250 1500
+Wire Wire Line
+	1250 3375 1350 3375
+Wire Wire Line
+	1350 3375 1350 4000
+Wire Wire Line
+	1400 3475 1250 3475
+Wire Wire Line
+	1250 3575 1400 3575
+Wire Wire Line
+	1750 3400 1625 3400
+Wire Wire Line
+	1750 3500 1650 3500
+Wire Wire Line
+	1750 3600 1675 3600
+Wire Wire Line
+	1625 3400 1625 3675
+Wire Wire Line
+	1625 3675 1250 3675
+Wire Wire Line
+	1650 3500 1650 3775
+Wire Wire Line
+	1650 3775 1250 3775
+Wire Wire Line
+	1675 3600 1675 3875
+Wire Wire Line
+	1675 3875 1250 3875
 $EndSCHEMATC

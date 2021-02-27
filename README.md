@@ -100,6 +100,10 @@ Here's some examples:
 
 ![](/images/zebra-kyria.jpg)
 
-- The best one I found for myself so far: +2.5mm/+10mm/-5mm/-14mm
+- More aggressive stagger: +2.5mm/+10mm/-5mm/-14mm
 
 ![zebra](/images/zebra.jpg)
+
+- Tenting, encoders, true split and more in v2!
+
+![zebra-v2](/images/zebra-v2.jpg)
